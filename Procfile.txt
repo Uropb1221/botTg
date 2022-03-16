@@ -1,1 +1,1 @@
-web : bat bot_run.bat
+worker: bat bot_run.bat
