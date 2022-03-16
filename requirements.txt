@@ -1,2 +1,2 @@
 aiogram==2.19
-async==4.0.2
+async==0.6.1
