@@ -53,7 +53,7 @@ async def on_startup(_):
 	print('Бот вышел в онлайн')
 
 
-'''*********************************Клиентская часть*************************************'''
+
 @dp.message_handler(commands=['start'])
 async def command_start(message : types.Message):
 	try:
@@ -115,15 +115,8 @@ b5 = KeyboardButton('/Статистика📊📈')
 kb_client = ReplyKeyboardMarkup(resize_keyboard= True)
 
 kb_client.row(b4, b3).row(b1, b2).add(b5)
-# insert-ИЩЕТ ПОЛОЖЕНИЕ
-# Row-в одну строку
 
-# def register_hundlers_client(dp : Dispatcher):  Не понял что за команды, регистрация присвоенных сообщений
-# 	dp.register_message_hundler(Price_command, commands=['Price'])
-    # dp.register_message_hundler(Admin_command, commands=['Admin']
-'''*********************************Админская часть*************************************'''
 
-'''*********************************Общая часть*************************************'''
 
 @dp.message_handler()
 async def echo_send(message : types.Message):
