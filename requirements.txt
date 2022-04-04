@@ -1,4 +1,0 @@
-aiogram==2.19
-async== 0.6.0
-pip== 22.0.4
-setuptools== 58.1.0
